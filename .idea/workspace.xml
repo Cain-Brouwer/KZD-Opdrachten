@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AirChatToolWindow">
-    <tab path="4/acp.dynamic.6163702e72656769737472792e6d69737472616c2d76696265/ba4fcd91/6k6z6op1xi4ngextvfbgf7s73" version="22" tabKey="6k6z6op1xi4ngextvfbgf7s73" projectHash="ba4fcd91" sessionWorkspaceId="$PROJECT_DIR$" projectDirectory="$PROJECT_DIR$" threadIdentity="acp.dynamic.6163702e72656769737472792e6d69737472616c2d76696265:acp:633722c9" launchTargetId="acp.v1.6163702e72656769737472792e6d69737472616c2d76696265" threadId="acp:633722c9" threadTitle="SvelteKit layout slot order" threadActivity="READY">
-      <launchProfile name="Mistral Vibe" agentId="acp.dynamic.6163702e72656769737472792e6d69737472616c2d76696265" launchMode="DEFAULT" launchTargetId="acp.v1.6163702e72656769737472792e6d69737472616c2d76696265" interactionSurfaceId="native" reasoningEffort="AUTO" />
-    </tab>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="Add layout components and restructure page content" />
+    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="Add layout components and update task summaries in workspace configuration">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/Gb1PyCAQSsG0uOOcZeuB_MtO55xoSa9nrosFYF-Yx_1Wvi4mSQVFYQuzu8uWWgJm_Xbx2gkK9hOqvmPPAkMrzR9uOCphTSfTf56Ili7DRHnWNSd0IfrOIKVhV1dUJi9JFbX567tZ1qKsQIxsubRMHnEzg2Jq_kXo5ZPa1DUW-UbhHcWDtVWitwhmmboQ61oE.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/Q34rIe2fdAFPaU-DH2oYziQn8KKz1BbNvpfr6exiA3EPrh2RSsp-nQGrgeiXrA9BGNcfT3Kyv-05Hh48dqt3YCFUquHIwW0PV-ueP2rEPSU0o0ypu7Ayp6DrECHhPVxLJFUMGLxfk67bXEUKl9o5x2o7kCMtZoF5QUxi58-Xe7Amo5LJv7jC083Ehf7keL2U.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/T2QtRcaUJZCI48Y7GGbuO6b5YHrSpQmAxODeOgAs6hktzq5DhydYwfKkQa9o4e-kjBmsfsMkOQPHPVnUyCFhpJwNXeXRj5ZoImVY3emDrEq3vToLVYI_h-KOpAO1PuzKa5p1-wXbY_fJEfAECnp4GaU59yLdVI__k1PNUOpFDHOW7l3HboBzTqcpursycJCm.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/T8uEXfYouFdM6eLohLZBwe3F5zi_xMsRDndByhFcMMVyVA4U-YGKaFlB0X9K7RSBKC9XLp0-3LWTPKHmKVxIh1l5pU88OrMAS8CjV338eIw7LG5KT4CWsQ6Ogg7pYz1jnSKlpRRd0g2G0bWn6K0-xeVwAo1ZNeYgGkbVsSWX9LLjOCDldY3n2D-kCeICNXuV.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/e0D7Er-M9vppqclEgfMpYz3TOkELppQgOJHXSnBDxpStDoYTYb5Lxhq3W17cGU4FoN4aIOkFYgOx1Tv99MovISwvIUQN9jzDhndKEtl__dszfyeGooKYoCC5phV9dOB24A06bssnfSkc163tiRiEMglLW5WU_qRKVUQ4JKh1524nTk1LgV9JQssISZIdLW2e.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/ifKsbu0legwPlQjv_j7OfgP87WEcI-YUJF9o1II_2r6b-LuShM4RIpjhqk_56yx1yYWWMXQqx8SzTutCMmI5Po01hPawlJHlk4cXt5G_0o8Y64hZEkOrthFBTLnx6HDv0kfHoj34qtppQ8FJfp9GRaaAL1pcE5pv72vwS7ynnrjxYcnpvIo5yxMvebVZBcXv.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/image17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/image18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/image23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/image24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/image25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/static/logo-bi.webp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="50" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -50,61 +58,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0464916451943123" />
-      <entry key="MS500" value="1.8309433802556159" />
-      <entry key="S2" value="3.8319374084334785" />
-      <entry key="S5" value="4.985333050813553" />
-      <entry key="S10" value="5.9452691575463295" />
-      <entry key="S30" value="10.646648285713669" />
-      <entry key="S60" value="15.57650347604058" />
-      <entry key="M2" value="22.039061366895176" />
-      <entry key="M5" value="45.60708906312995" />
-      <entry key="M10" value="84.65210078507043" />
-      <entry key="M15" value="123.62591520598288" />
-      <entry key="M30" value="253.65637539212733" />
-      <entry key="H1" value="450.5256475861119" />
-      <entry key="H2" value="635.2010938101309" />
-      <entry key="H4" value="763.6859761725891" />
-      <entry key="D1" value="895.4878425197592" />
-      <entry key="W1" value="920.7145783017144" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000002572570235" />
+      <entry key="S5" value="1.0044781315165712" />
+      <entry key="S10" value="1.1315246005805197" />
+      <entry key="S30" value="2.8449543372032706" />
+      <entry key="S60" value="4.976304592088928" />
+      <entry key="M2" value="6.973791299570059" />
+      <entry key="M5" value="11.74163824466962" />
+      <entry key="M10" value="31.44236459778956" />
+      <entry key="M15" value="60.109395847181545" />
+      <entry key="M30" value="172.03027634898754" />
+      <entry key="H1" value="370.22720739226276" />
+      <entry key="H2" value="578.0245865314871" />
+      <entry key="H4" value="732.183982304103" />
+      <entry key="D1" value="897.1882520887498" />
+      <entry key="W1" value="929.4906784102877" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="9.664672895341658E-136" />
-      <entry key="S5" value="9.864496430900475E-55" />
-      <entry key="S10" value="9.935586606260733E-28" />
-      <entry key="S30" value="1.068669676797425E-9" />
-      <entry key="S60" value="4.0044659961333695E-5" />
-      <entry key="M2" value="0.008841521639302559" />
-      <entry key="M5" value="0.29942498511976723" />
-      <entry key="M10" value="1.1552459786814424" />
-      <entry key="M15" value="1.908110457318864" />
-      <entry key="M30" value="3.4477259816831287" />
-      <entry key="H1" value="5.012863450956962" />
-      <entry key="H2" value="6.24623411671044" />
-      <entry key="H4" value="7.043023738150119" />
-      <entry key="D1" value="7.827788860481938" />
-      <entry key="W1" value="7.975063724771602" />
+      <entry key="MS100" value="2.137240771719589E-226" />
+      <entry key="MS500" value="7.344642985755989E-46" />
+      <entry key="S2" value="5.2058622532891996E-12" />
+      <entry key="S5" value="3.06617592277326E-5" />
+      <entry key="S10" value="0.005537306134550681" />
+      <entry key="S30" value="0.17691561976037412" />
+      <entry key="S60" value="0.4206133852023921" />
+      <entry key="M2" value="0.6485580174051877" />
+      <entry key="M5" value="0.8614921307161069" />
+      <entry key="M10" value="1.219537200952529" />
+      <entry key="M15" value="1.72486968352295" />
+      <entry key="M30" value="3.177254312699735" />
+      <entry key="H1" value="4.995201574635335" />
+      <entry key="H2" value="6.579082006128977" />
+      <entry key="H4" value="7.656963480711599" />
+      <entry key="D1" value="8.754683743148696" />
+      <entry key="W1" value="8.964383109822252" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9770154721150371" />
-      <entry key="MS500" value="1.8073140541112094" />
-      <entry key="S2" value="3.8195565556607014" />
-      <entry key="S5" value="4.9788451912119775" />
-      <entry key="S10" value="5.93992552110507" />
-      <entry key="S30" value="10.63494779693539" />
-      <entry key="S60" value="15.564819902331326" />
-      <entry key="M2" value="22.036985589473392" />
-      <entry key="M5" value="45.88795040128561" />
-      <entry key="M10" value="85.7831250823656" />
-      <entry key="M15" value="125.51007007655163" />
-      <entry key="M30" value="257.0852823282938" />
-      <entry key="H1" value="455.5262821266057" />
-      <entry key="H2" value="641.440255202959" />
-      <entry key="H4" value="770.7251784499933" />
-      <entry key="D1" value="903.3149500580647" />
-      <entry key="W1" value="928.6895435364487" />
+      <entry key="MS100" value="0.9395227492140118" />
+      <entry key="MS500" value="0.9876008614453725" />
+      <entry key="S2" value="0.9968859535967628" />
+      <entry key="S5" value="1.0032408004850037" />
+      <entry key="S10" value="1.1346614052190924" />
+      <entry key="S30" value="3.00015499401167" />
+      <entry key="S60" value="5.370223032211176" />
+      <entry key="M2" value="7.6013621175005595" />
+      <entry key="M5" value="12.590849722432578" />
+      <entry key="M10" value="32.64953351700728" />
+      <entry key="M15" value="61.82032025784903" />
+      <entry key="M30" value="175.19335728429368" />
+      <entry key="H1" value="375.2115445767841" />
+      <entry key="H2" value="584.5967974367468" />
+      <entry key="H4" value="739.8370579774826" />
+      <entry key="D1" value="905.9422150325062" />
+      <entry key="W1" value="938.4549566162592" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -116,77 +124,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "opdracht2",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_2/my-app/src/lib",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "air.chat.gui.settings",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_2/my-app/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;opdracht2&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_2/my-app/src/lib&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;air.chat.gui.settings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_2/my-app/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my-app/src/lib" />
       <recent name="$PROJECT_DIR$/Docs" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="opdracht_2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="opdracht_2" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -209,7 +177,8 @@
       <workItem from="1793088874112" duration="40000" />
       <workItem from="1793088919833" duration="4015000" />
       <workItem from="1793093406603" duration="13000" />
-      <workItem from="1793093422587" duration="2663000" />
+      <workItem from="1793093422587" duration="2791000" />
+      <workItem from="1793096218917" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="initialize project with Vite Plus setup, TypeScript configuration, and basic components">
       <option name="closed" value="true" />
@@ -283,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793095688411</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add layout components and update task summaries in workspace configuration">
+      <option name="closed" value="true" />
+      <created>1793096106136</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1793096106136</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +273,7 @@
     <MESSAGE value="Update workspace configuration; modify task summaries and add VCS directory mappings" />
     <MESSAGE value="&quot;Replace Checklists.docx with a copied version for restructuring.&quot;" />
     <MESSAGE value="Add layout components and restructure page content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add layout components and restructure page content" />
+    <MESSAGE value="Add layout components and update task summaries in workspace configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add layout components and update task summaries in workspace configuration" />
   </component>
 </project>
