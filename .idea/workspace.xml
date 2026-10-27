@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AirChatToolWindow">
+    <tab path="4/acp.dynamic.6163702e72656769737472792e6d69737472616c2d76696265/ba4fcd91/6k6z6op1xi4ngextvfbgf7s73" version="22" tabKey="6k6z6op1xi4ngextvfbgf7s73" projectHash="ba4fcd91" sessionWorkspaceId="$PROJECT_DIR$" projectDirectory="$PROJECT_DIR$" threadIdentity="acp.dynamic.6163702e72656769737472792e6d69737472616c2d76696265:acp:633722c9" launchTargetId="acp.v1.6163702e72656769737472792e6d69737472616c2d76696265" threadId="acp:633722c9" threadTitle="SvelteKit layout slot order" threadActivity="READY">
+      <launchProfile name="Mistral Vibe" agentId="acp.dynamic.6163702e72656769737472792e6d69737472616c2d76696265" launchMode="DEFAULT" launchTargetId="acp.v1.6163702e72656769737472792e6d69737472616c2d76696265" interactionSurfaceId="native" reasoningEffort="AUTO" />
+    </tab>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="Update workspace configuration; modify task summaries and add VCS directory mappings">
+    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="&quot;Replace Checklists.docx with a copied version for restructuring.&quot;">
+      <change afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Footer.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Header.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Hero.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Checklists.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Checklists.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +23,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="45" />
+    <option name="cachedIndexableFilesCount" value="50" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="hero" />
+        <option value="header" />
+        <option value="footer" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,61 +57,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.1228505662099133" />
-      <entry key="MS500" value="3.8707653847940855" />
-      <entry key="S2" value="4.665754614230165" />
-      <entry key="S5" value="4.86149737570201" />
-      <entry key="S10" value="4.957654782770497" />
-      <entry key="S30" value="6.649232985823931" />
-      <entry key="S60" value="9.650941916013275" />
-      <entry key="M2" value="12.78021466725058" />
-      <entry key="M5" value="17.927300228250704" />
-      <entry key="M10" value="55.56393670437278" />
-      <entry key="M15" value="118.21481455400391" />
-      <entry key="M30" value="283.65839098166964" />
-      <entry key="H1" value="451.4659346391775" />
-      <entry key="H2" value="572.18674893467" />
-      <entry key="H4" value="644.7782340744517" />
-      <entry key="D1" value="712.5746302625583" />
-      <entry key="W1" value="724.9208223081152" />
+      <entry key="MS100" value="1.0464916451943123" />
+      <entry key="MS500" value="1.8309433802556159" />
+      <entry key="S2" value="3.8319374084334785" />
+      <entry key="S5" value="4.985333050813553" />
+      <entry key="S10" value="5.9452691575463295" />
+      <entry key="S30" value="10.646648285713669" />
+      <entry key="S60" value="15.57650347604058" />
+      <entry key="M2" value="22.039061366895176" />
+      <entry key="M5" value="45.60708906312995" />
+      <entry key="M10" value="84.65210078507043" />
+      <entry key="M15" value="123.62591520598288" />
+      <entry key="M30" value="253.65637539212733" />
+      <entry key="H1" value="450.5256475861119" />
+      <entry key="H2" value="635.2010938101309" />
+      <entry key="H4" value="763.6859761725891" />
+      <entry key="D1" value="895.4878425197592" />
+      <entry key="W1" value="920.7145783017144" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.22E-321" />
-      <entry key="S5" value="4.319679396190586E-129" />
-      <entry key="S10" value="6.57242679395563E-65" />
-      <entry key="S30" value="4.035604575652094E-22" />
-      <entry key="S60" value="2.0094781730649497E-11" />
-      <entry key="M2" value="4.590740056815429E-6" />
-      <entry key="M5" value="0.009734725692102016" />
-      <entry key="M10" value="0.15559132892168331" />
-      <entry key="M15" value="0.4084231868628526" />
-      <entry key="M30" value="1.0954660785664991" />
-      <entry key="H1" value="1.8082802522778951" />
-      <entry key="H2" value="2.3276912290465566" />
-      <entry key="H4" value="2.6421472906087473" />
-      <entry key="D1" value="2.937095550776568" />
-      <entry key="W1" value="2.9909302957800272" />
+      <entry key="S2" value="9.664672895341658E-136" />
+      <entry key="S5" value="9.864496430900475E-55" />
+      <entry key="S10" value="9.935586606260733E-28" />
+      <entry key="S30" value="1.068669676797425E-9" />
+      <entry key="S60" value="4.0044659961333695E-5" />
+      <entry key="M2" value="0.008841521639302559" />
+      <entry key="M5" value="0.29942498511976723" />
+      <entry key="M10" value="1.1552459786814424" />
+      <entry key="M15" value="1.908110457318864" />
+      <entry key="M30" value="3.4477259816831287" />
+      <entry key="H1" value="5.012863450956962" />
+      <entry key="H2" value="6.24623411671044" />
+      <entry key="H4" value="7.043023738150119" />
+      <entry key="D1" value="7.827788860481938" />
+      <entry key="W1" value="7.975063724771602" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.0015598165508055" />
-      <entry key="MS500" value="3.8233954852298315" />
-      <entry key="S2" value="4.651269509461157" />
-      <entry key="S5" value="4.85544301723532" />
-      <entry key="S10" value="4.954535937785787" />
-      <entry key="S30" value="6.647252092449395" />
-      <entry key="S60" value="9.649098744222837" />
-      <entry key="M2" value="12.778851443868382" />
-      <entry key="M5" value="17.93625779687531" />
-      <entry key="M10" value="55.718534642202684" />
-      <entry key="M15" value="118.62189327309605" />
-      <entry key="M30" value="284.75226043340814" />
-      <entry key="H1" value="453.2729382360082" />
-      <entry key="H2" value="574.5136278741377" />
-      <entry key="H4" value="647.4199226181461" />
-      <entry key="D1" value="715.5116411383361" />
-      <entry key="W1" value="727.9117402932928" />
+      <entry key="MS100" value="0.9770154721150371" />
+      <entry key="MS500" value="1.8073140541112094" />
+      <entry key="S2" value="3.8195565556607014" />
+      <entry key="S5" value="4.9788451912119775" />
+      <entry key="S10" value="5.93992552110507" />
+      <entry key="S30" value="10.63494779693539" />
+      <entry key="S60" value="15.564819902331326" />
+      <entry key="M2" value="22.036985589473392" />
+      <entry key="M5" value="45.88795040128561" />
+      <entry key="M10" value="85.7831250823656" />
+      <entry key="M15" value="125.51007007655163" />
+      <entry key="M30" value="257.0852823282938" />
+      <entry key="H1" value="455.5262821266057" />
+      <entry key="H2" value="641.440255202959" />
+      <entry key="H4" value="770.7251784499933" />
+      <entry key="D1" value="903.3149500580647" />
+      <entry key="W1" value="928.6895435364487" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -105,29 +123,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;opdracht2&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/cainbrouwer/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "opdracht2",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_2/my-app/src/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "air.chat.gui.settings",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_2/my-app/node_modules/typescript/lib"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src/lib" />
+      <recent name="$PROJECT_DIR$/Docs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="opdracht_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="opdracht_2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -147,7 +214,9 @@
       <workItem from="1791880893471" duration="199000" />
       <workItem from="1791881527035" duration="3293000" />
       <workItem from="1793088874112" duration="40000" />
-      <workItem from="1793088919833" duration="2555000" />
+      <workItem from="1793088919833" duration="4015000" />
+      <workItem from="1793093406603" duration="13000" />
+      <workItem from="1793093422587" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="initialize project with Vite Plus setup, TypeScript configuration, and basic components">
       <option name="closed" value="true" />
@@ -181,7 +250,39 @@
       <option name="project" value="LOCAL" />
       <updated>1793089306751</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update workspace configuration; modify task summaries and add VCS directory mappings">
+      <option name="closed" value="true" />
+      <created>1793091954358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1793091954358</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update workspace configuration; modify task summaries and add VCS directory mappings">
+      <option name="closed" value="true" />
+      <created>1793091980370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1793091980370</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update workspace configuration; modify task summaries and add VCS directory mappings">
+      <option name="closed" value="true" />
+      <created>1793092136763</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1793092136763</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;Replace Checklists.docx with a copied version for restructuring.&quot;">
+      <option name="closed" value="true" />
+      <created>1793092157945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1793092157945</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +293,7 @@
     <MESSAGE value="Add configuration files for project setup; update package.json scripts and dependencies" />
     <MESSAGE value="Update workspace configuration; add project setup files and modify task summaries" />
     <MESSAGE value="Update workspace configuration; modify task summaries and add VCS directory mappings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration; modify task summaries and add VCS directory mappings" />
+    <MESSAGE value="&quot;Replace Checklists.docx with a copied version for restructuring.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Replace Checklists.docx with a copied version for restructuring.&quot;" />
   </component>
 </project>
