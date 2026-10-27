@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="&quot;Replace Checklists.docx with a copied version for restructuring.&quot;">
-      <change afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Footer.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Header.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Hero.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/routes/+page.svelte" afterDir="false" />
-    </list>
+    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="Add layout components and restructure page content" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +209,7 @@
       <workItem from="1793088874112" duration="40000" />
       <workItem from="1793088919833" duration="4015000" />
       <workItem from="1793093406603" duration="13000" />
-      <workItem from="1793093422587" duration="2253000" />
+      <workItem from="1793093422587" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="initialize project with Vite Plus setup, TypeScript configuration, and basic components">
       <option name="closed" value="true" />
@@ -282,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793092157945</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add layout components and restructure page content">
+      <option name="closed" value="true" />
+      <created>1793095688411</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1793095688411</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +295,7 @@
     <MESSAGE value="Update workspace configuration; add project setup files and modify task summaries" />
     <MESSAGE value="Update workspace configuration; modify task summaries and add VCS directory mappings" />
     <MESSAGE value="&quot;Replace Checklists.docx with a copied version for restructuring.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Replace Checklists.docx with a copied version for restructuring.&quot;" />
+    <MESSAGE value="Add layout components and restructure page content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add layout components and restructure page content" />
   </component>
 </project>
