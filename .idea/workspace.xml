@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="Update workspace configuration; add project setup files and modify task summaries">
+    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="Update workspace configuration; modify task summaries and add VCS directory mappings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Checklists.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Checklists.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,7 @@
       <workItem from="1791880893471" duration="199000" />
       <workItem from="1791881527035" duration="3293000" />
       <workItem from="1793088874112" duration="40000" />
-      <workItem from="1793088919833" duration="348000" />
+      <workItem from="1793088919833" duration="2555000" />
     </task>
     <task id="LOCAL-00001" summary="initialize project with Vite Plus setup, TypeScript configuration, and basic components">
       <option name="closed" value="true" />
@@ -172,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791884625183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update workspace configuration; modify task summaries and add VCS directory mappings">
+      <option name="closed" value="true" />
+      <created>1793089306751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1793089306751</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +191,7 @@
     <MESSAGE value="initialize project with Vite Plus setup, TypeScript configuration, and basic components" />
     <MESSAGE value="Add configuration files for project setup; update package.json scripts and dependencies" />
     <MESSAGE value="Update workspace configuration; add project setup files and modify task summaries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration; add project setup files and modify task summaries" />
+    <MESSAGE value="Update workspace configuration; modify task summaries and add VCS directory mappings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration; modify task summaries and add VCS directory mappings" />
   </component>
 </project>
