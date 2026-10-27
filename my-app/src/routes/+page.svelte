@@ -1,7 +1,6 @@
 <script>
-
 </script>
 
 <div>
- <p>content</p>
+	<p>content</p>
 </div>

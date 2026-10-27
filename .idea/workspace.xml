@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="Add layout components and update task summaries in workspace configuration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/Gb1PyCAQSsG0uOOcZeuB_MtO55xoSa9nrosFYF-Yx_1Wvi4mSQVFYQuzu8uWWgJm_Xbx2gkK9hOqvmPPAkMrzR9uOCphTSfTf56Ili7DRHnWNSd0IfrOIKVhV1dUJi9JFbX567tZ1qKsQIxsubRMHnEzg2Jq_kXo5ZPa1DUW-UbhHcWDtVWitwhmmboQ61oE.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/Q34rIe2fdAFPaU-DH2oYziQn8KKz1BbNvpfr6exiA3EPrh2RSsp-nQGrgeiXrA9BGNcfT3Kyv-05Hh48dqt3YCFUquHIwW0PV-ueP2rEPSU0o0ypu7Ayp6DrECHhPVxLJFUMGLxfk67bXEUKl9o5x2o7kCMtZoF5QUxi58-Xe7Amo5LJv7jC083Ehf7keL2U.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/T2QtRcaUJZCI48Y7GGbuO6b5YHrSpQmAxODeOgAs6hktzq5DhydYwfKkQa9o4e-kjBmsfsMkOQPHPVnUyCFhpJwNXeXRj5ZoImVY3emDrEq3vToLVYI_h-KOpAO1PuzKa5p1-wXbY_fJEfAECnp4GaU59yLdVI__k1PNUOpFDHOW7l3HboBzTqcpursycJCm.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/T8uEXfYouFdM6eLohLZBwe3F5zi_xMsRDndByhFcMMVyVA4U-YGKaFlB0X9K7RSBKC9XLp0-3LWTPKHmKVxIh1l5pU88OrMAS8CjV338eIw7LG5KT4CWsQ6Ogg7pYz1jnSKlpRRd0g2G0bWn6K0-xeVwAo1ZNeYgGkbVsSWX9LLjOCDldY3n2D-kCeICNXuV.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/e0D7Er-M9vppqclEgfMpYz3TOkELppQgOJHXSnBDxpStDoYTYb5Lxhq3W17cGU4FoN4aIOkFYgOx1Tv99MovISwvIUQN9jzDhndKEtl__dszfyeGooKYoCC5phV9dOB24A06bssnfSkc163tiRiEMglLW5WU_qRKVUQ4JKh1524nTk1LgV9JQssISZIdLW2e.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/ifKsbu0legwPlQjv_j7OfgP87WEcI-YUJF9o1II_2r6b-LuShM4RIpjhqk_56yx1yYWWMXQqx8SzTutCMmI5Po01hPawlJHlk4cXt5G_0o8Y64hZEkOrthFBTLnx6HDv0kfHoj34qtppQ8FJfp9GRaaAL1pcE5pv72vwS7ynnrjxYcnpvIo5yxMvebVZBcXv.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/image17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/image18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/image23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/image24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/image25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/static/logo-bi.webp" beforeDir="false" />
-    </list>
+    <list default="true" id="39926297-7140-479b-94af-a4347fc7b34b" name="Changes" comment="Update workspace configuration; add layout components and modify task summaries" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="63" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -124,32 +111,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;opdracht2&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_2/my-app/src/lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;air.chat.gui.settings&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_2/my-app/node_modules/typescript/lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "opdracht2",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 1/Frontend-Development/opdracht_2/my-app/src/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "air.chat.gui.settings",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/cainbrouwer/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my-app/src/lib" />
@@ -179,6 +166,7 @@
       <workItem from="1793093406603" duration="13000" />
       <workItem from="1793093422587" duration="2791000" />
       <workItem from="1793096218917" duration="9000" />
+      <workItem from="1793096230146" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="initialize project with Vite Plus setup, TypeScript configuration, and basic components">
       <option name="closed" value="true" />
@@ -260,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793096106136</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update workspace configuration; add layout components and modify task summaries">
+      <option name="closed" value="true" />
+      <created>1793096242566</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1793096242566</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +270,7 @@
     <MESSAGE value="&quot;Replace Checklists.docx with a copied version for restructuring.&quot;" />
     <MESSAGE value="Add layout components and restructure page content" />
     <MESSAGE value="Add layout components and update task summaries in workspace configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add layout components and update task summaries in workspace configuration" />
+    <MESSAGE value="Update workspace configuration; add layout components and modify task summaries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration; add layout components and modify task summaries" />
   </component>
 </project>
