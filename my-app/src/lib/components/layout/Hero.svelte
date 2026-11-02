@@ -1,5 +1,5 @@
 <script>
-	import Icon from '#lib/components/ui/Icon.svelte';
+	import { tick } from 'svelte';
 
 	const slides = [
 		{
@@ -12,103 +12,144 @@
 		}
 	];
 
-	let active = $state(0);
+	// Clone de laatste en eerste slide zodat er oneindig doorgeklikt kan worden.
+	const loopSlides = [slides[slides.length - 1], ...slides, slides[0]];
+
+	let position = $state(1);
+	let active = $derived(
+		position === 0 ? slides.length - 1 : position === slides.length + 1 ? 0 : position - 1
+	);
+	let animate = $state(true);
+	let moving = $state(false);
 	let paused = $state(false);
 
 	$effect(() => {
 		if (paused) return;
 
 		const id = setInterval(() => {
-			active = (active + 1) % slides.length;
-		}, 8000);
+			move(1);
+		}, 10000);
 
 		return () => clearInterval(id);
 	});
 
 	/** @param {number} step */
-	function go(step) {
-		active = (active + step + slides.length) % slides.length;
+	function move(step) {
+		if (moving) return;
+
+		moving = true;
+		animate = true;
+		position += step;
+	}
+
+	/** @param {number} index */
+	function goTo(index) {
+		if (moving || index === active) return;
+
+		moving = true;
+		animate = true;
+		position = index + 1;
+	}
+
+	/** @param {TransitionEvent} event */
+	async function handleTransitionEnd(event) {
+		if (event.propertyName !== 'transform') return;
+
+		if (position === loopSlides.length - 1) {
+			animate = false;
+			position = 1;
+			await tick();
+			requestAnimationFrame(() => {
+				animate = true;
+				moving = false;
+			});
+		} else if (position === 0) {
+			animate = false;
+			position = slides.length;
+			await tick();
+			requestAnimationFrame(() => {
+				animate = true;
+				moving = false;
+			});
+		} else {
+			moving = false;
+		}
 	}
 </script>
 
 <section
 	id="top"
-	class="relative isolate overflow-hidden bg-slate-200"
+	class="relative overflow-hidden"
 	aria-label="Introduction"
 	onmouseenter={() => (paused = true)}
 	onmouseleave={() => (paused = false)}
 >
-	<div class="relative h-[560px] w-full sm:h-[620px]">
-		{#each slides as slide, index (slide.src)}
-			<img
-				src={slide.src}
-				alt={slide.alt}
-				class="absolute inset-0 h-full w-full object-cover transition-opacity duration-700 {index ===
-				active
-					? 'opacity-100'
-					: 'opacity-0'}"
-				loading={index === 0 ? 'eager' : 'lazy'}
-			/>
-		{/each}
+	<div class="relative h-[480px] w-full overflow-hidden">
+		<div
+			class="flex h-full {animate ? 'transition-transform duration-500' : ''}"
+			style:transform={`translateX(-${position * 100}%)`}
+			ontransitionend={handleTransitionEnd}
+		>
+			{#each loopSlides as slide, index (index)}
+				<div class="relative h-full w-full shrink-0">
+					<img
+						src={slide.src}
+						alt={slide.alt}
+						class="h-full w-full object-cover"
+						loading={index === 1 ? 'eager' : 'lazy'}
+					/>
+					<div class="absolute inset-0 bg-black/35"></div>
+				</div>
+			{/each}
+		</div>
 
-		<div class="absolute inset-0 bg-gradient-to-r from-white/85 via-white/35 to-transparent"></div>
+		<div class="absolute inset-0">
+			<div class="mx-auto flex h-full max-w-6xl flex-col justify-center px-4 text-white">
+				<p class="text-sm font-semibold tracking-wide uppercase">High quality guaranteed</p>
+				<h1 class="mt-3 max-w-xl text-4xl leading-tight font-bold sm:text-5xl">
+					Constructing Is Our Life Business
+				</h1>
 
-		<div class="relative mx-auto flex h-full max-w-[1170px] flex-col justify-center px-4">
-			<span class="mb-4 block h-0.5 w-14 bg-brand"></span>
-			<p class="font-sans text-sm font-semibold tracking-[0.15em] text-ink uppercase">
-				High quality guaranteed
-			</p>
-			<h1
-				class="mt-3 max-w-2xl font-sans text-3xl leading-[1.08] font-semibold text-ink sm:text-4xl md:text-5xl lg:text-6xl"
-			>
-				Constructing<br />Is Our Life Business
-			</h1>
-
-			<div class="mt-8 flex flex-wrap gap-3">
-				<a
-					href="#services"
-					class="flex items-center gap-2 bg-brand px-6 py-3.5 text-xs font-semibold tracking-wide text-white uppercase transition hover:bg-brand-dark"
-				>
-					Our services
-					<Icon name="chevron-right" class="h-4 w-4" />
-				</a>
-				<a
-					href="#about"
-					class="flex items-center gap-2 bg-ink px-6 py-3.5 text-xs font-semibold tracking-wide text-white uppercase transition hover:bg-ink-soft"
-				>
-					About us
-					<Icon name="chevron-right" class="h-4 w-4" />
-				</a>
+				<div class="mt-6 flex flex-wrap gap-3">
+					<a href="#services" class="bg-[#f5a623] px-5 py-3 text-xs font-semibold uppercase">
+						Our services &gt;
+					</a>
+					<a href="#about" class="bg-[#1d2632] px-5 py-3 text-xs font-semibold uppercase">
+						About us &gt;
+					</a>
+				</div>
 			</div>
 		</div>
 
 		<button
 			type="button"
-			class="absolute top-1/2 left-0 hidden h-14 w-11 -translate-y-1/2 items-center justify-center bg-ink/55 text-white transition hover:bg-ink/80 sm:flex"
+			class="absolute top-1/2 left-0 hidden h-14 w-11 -translate-y-1/2 items-center justify-center bg-black/40 text-white hover:bg-black/70 sm:flex"
 			aria-label="Previous slide"
-			onclick={() => go(-1)}
+			onclick={() => move(-1)}
 		>
-			<Icon name="chevron-left" class="h-6 w-6" />
-		</button>
-		<button
-			type="button"
-			class="absolute top-1/2 right-0 hidden h-14 w-11 -translate-y-1/2 items-center justify-center bg-ink/55 text-white transition hover:bg-ink/80 sm:flex"
-			aria-label="Next slide"
-			onclick={() => go(1)}
-		>
-			<Icon name="chevron-right" class="h-6 w-6" />
+			<svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2">
+				<polyline points="15 18 9 12 15 6" />
+			</svg>
 		</button>
 
-		<div class="absolute bottom-6 left-1/2 flex -translate-x-1/2 gap-2 sm:hidden">
+		<button
+			type="button"
+			class="absolute top-1/2 right-0 hidden h-14 w-11 -translate-y-1/2 items-center justify-center bg-black/40 text-white hover:bg-black/70 sm:flex"
+			aria-label="Next slide"
+			onclick={() => move(1)}
+		>
+			<svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2">
+				<polyline points="9 18 15 12 9 6" />
+			</svg>
+		</button>
+
+		<div class="absolute bottom-5 left-1/2 flex -translate-x-1/2 gap-2 sm:hidden">
 			{#each slides as slide, index (slide.src)}
 				<button
 					type="button"
-					class="h-2.5 w-2.5 rounded-full transition {index === active
-						? 'bg-brand'
-						: 'bg-white/80 hover:bg-white'}"
+					class="h-2.5 w-2.5 rounded-full {index === active ? 'bg-[#f5a623]' : 'bg-white/70'}"
 					aria-label="Go to slide {index + 1}"
-					aria-current={index === active}
-					onclick={() => (active = index)}
+					onclick={() => goTo(index)}
 				></button>
 			{/each}
 		</div>
