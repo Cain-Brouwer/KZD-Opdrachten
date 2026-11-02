@@ -31,3 +31,4 @@ vite.config.ts.timestamp-*
 devbox.lock
 /static/Checklists.docx
 /static/.~lock.Checklists.docx#
+.vitest/
