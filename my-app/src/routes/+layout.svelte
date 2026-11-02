@@ -1,22 +1,26 @@
 <script>
 	import './layout.css';
 	import favicon from '#lib/assets/favicon.svg';
-	// @ts-ignore
-	import Hero from '#lib/components/layout/Hero.svelte';
-	// @ts-ignore
-	import Header from '#lib/components/layout/Header.svelte';
-	// @ts-ignore
+	import Header from '#lib/components/layout/header/Header.svelte';
 	import Footer from '#lib/components/layout/Footer.svelte';
+	import BackToTop from '#lib/components/ui/BackToTop.svelte';
 
-	/** @type {{children: import('svelte').Snippet}} */
+	/** @type {{ children: import('svelte').Snippet }} */
 	let { children } = $props();
 </script>
 
 <svelte:head>
+	<title>BuildIcon | Construction Company</title>
+	<meta
+		name="description"
+		content="BuildIcon is a client-oriented construction company turning ideas and visions into award-winning projects."
+	/>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<Hero />
 <Header />
-{@render children()}
+<main>
+	{@render children()}
+</main>
 <Footer />
+<BackToTop />
