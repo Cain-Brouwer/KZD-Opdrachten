@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AirChatToolWindow" selected="5bsfqxu0b68qym4ey1ppqvxgy">
+    <tab path="4/acp.dynamic.6163702e6f70656e636f64652d6d656e746f72/3547505f/5bsfqxu0b68qym4ey1ppqvxgy" version="23" tabKey="5bsfqxu0b68qym4ey1ppqvxgy" projectHash="3547505f" sessionWorkspaceId="$PROJECT_DIR$" projectDirectory="$PROJECT_DIR$" localSessionId="acp:c5947e54" threadIdentity="acp.dynamic.6163702e6f70656e636f64652d6d656e746f72:acp:c5947e54" launchTargetId="acp.v1.6163702e6f70656e636f64652d6d656e746f72" threadId="acp:c5947e54" threadTitle="hoe stijl ik de footer onderaan de pagina zelfs wanneer er ruimte erboven is" threadActivity="READY">
+      <launchProfile name="OpenCode Mentor" agentId="acp.dynamic.6163702e6f70656e636f64652d6d656e746f72" launchMode="DEFAULT" launchTargetId="acp.v1.6163702e6f70656e636f64652d6d656e746f72" interactionSurfaceId="native" modelId="opencode/beam-free" modelDisplayName="opencode/Beam Free" reasoningEffort="AUTO" />
+    </tab>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="add initial project files and configuration for SvelteKit with TailwindCSS">
+      <change afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Footer.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/routes/+page.svelte" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Header" />
+        <option value="Footer" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="opdracht1_periode2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000206438546723" />
+      <entry key="S2" value="1.1198664761564963" />
+      <entry key="S5" value="1.4303601124180845" />
+      <entry key="S10" value="1.8301762643691537" />
+      <entry key="S30" value="5.637828408972842" />
+      <entry key="S60" value="11.441726672136209" />
+      <entry key="M2" value="22.251094502350785" />
+      <entry key="M5" value="57.68960769652868" />
+      <entry key="M10" value="118.01837022590209" />
+      <entry key="M15" value="169.98208206826004" />
+      <entry key="M30" value="269.7549800882887" />
+      <entry key="H1" value="354.27836361123565" />
+      <entry key="H2" value="410.45123873619855" />
+      <entry key="H4" value="443.0016794000183" />
+      <entry key="D1" value="472.74406241754247" />
+      <entry key="W1" value="478.0997880609527" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.0321194034645005E-181" />
+      <entry key="S2" value="6.714095369593811E-46" />
+      <entry key="S5" value="8.551876166034309E-19" />
+      <entry key="S10" value="9.73318534845511E-10" />
+      <entry key="S30" value="0.0013429986680789374" />
+      <entry key="S60" value="0.05190080004858496" />
+      <entry key="M2" value="0.3821786931853642" />
+      <entry key="M5" value="1.8202487359534885" />
+      <entry key="M10" value="3.7495725515584364" />
+      <entry key="M15" value="5.000527116909712" />
+      <entry key="M30" value="6.907555735174252" />
+      <entry key="H1" value="8.255222217981775" />
+      <entry key="H2" value="9.069357444364035" />
+      <entry key="H4" value="9.518842449169608" />
+      <entry key="D1" value="9.91748879409883" />
+      <entry key="W1" value="9.988154282615671" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="4.3975056734536715E-19" />
+      <entry key="MS500" value="2.4063083470705977E-4" />
+      <entry key="S2" value="0.19324416744207656" />
+      <entry key="S5" value="0.7816214236323317" />
+      <entry key="S10" value="1.42265845907178" />
+      <entry key="S30" value="5.476194417270438" />
+      <entry key="S60" value="11.39363572155335" />
+      <entry key="M2" value="22.548408222604913" />
+      <entry key="M5" value="59.42340131741307" />
+      <entry key="M10" value="121.69262295166162" />
+      <entry key="M15" value="174.91946057819433" />
+      <entry key="M30" value="276.62169262918746" />
+      <entry key="H1" value="362.51007262165245" />
+      <entry key="H2" value="419.5079375133608" />
+      <entry key="H4" value="452.5139481685772" />
+      <entry key="D1" value="482.66041991666276" />
+      <entry key="W1" value="488.08777983235194" />
+    </decayedShown>
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;p2__opdracht1&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.mcpserver.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 2/Frontend Development/opdracht1/my-app/node_modules/typescript/lib&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="chore: add initial project configuration files and structure">
+      <option name="closed" value="true" />
+      <created>1794907336592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794907336592</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add initial project files and configuration for SvelteKit with TailwindCSS">
+      <option name="closed" value="true" />
+      <created>1794908416948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794908416948</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: restructure project files and add initial configuration" />
+    <MESSAGE value="chore: add initial project configuration files and structure" />
+    <MESSAGE value="add initial project files and configuration for SvelteKit with TailwindCSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="add initial project files and configuration for SvelteKit with TailwindCSS" />
+  </component>
+</project>
