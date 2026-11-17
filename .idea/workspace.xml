@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: add Header and Footer components and update main page layout">
+    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: update layout styles for Header and Footer components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/lib/components/layout/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/lib/components/layout/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Header.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="8.270858377982047E-222" />
-      <entry key="MS500" value="6.074494144219143E-45" />
-      <entry key="S2" value="9.022959731129966E-12" />
-      <entry key="S5" value="6.569802932314343E-5" />
-      <entry key="S10" value="0.022670178750860255" />
-      <entry key="S30" value="1.8196495824289742" />
-      <entry key="S60" value="7.242504199480261" />
-      <entry key="M2" value="18.277466523038008" />
-      <entry key="M5" value="41.31428980938676" />
-      <entry key="M10" value="73.90074392848982" />
-      <entry key="M15" value="111.88546086178077" />
-      <entry key="M30" value="216.14605721210384" />
-      <entry key="H1" value="335.1926579162024" />
-      <entry key="H2" value="428.8489208512679" />
-      <entry key="H4" value="488.1852977050132" />
-      <entry key="D1" value="545.5558802739582" />
-      <entry key="W1" value="556.20132287414" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000016039625688" />
+      <entry key="S2" value="1.0632846754595209" />
+      <entry key="S5" value="1.3315430199420955" />
+      <entry key="S10" value="1.5880025401002713" />
+      <entry key="S30" value="3.761669179865603" />
+      <entry key="S60" value="10.538112361895147" />
+      <entry key="M2" value="23.948635110332688" />
+      <entry key="M5" value="52.79725497605504" />
+      <entry key="M10" value="89.85540793727544" />
+      <entry key="M15" value="127.23979874817996" />
+      <entry key="M30" value="232.71016746620427" />
+      <entry key="H1" value="363.83127905446776" />
+      <entry key="H2" value="473.69348029626104" />
+      <entry key="H4" value="545.855479417916" />
+      <entry key="D1" value="617.3000899438941" />
+      <entry key="W1" value="630.7264030559767" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000000000000002" />
-      <entry key="S2" value="1.000213348622594" />
-      <entry key="S5" value="1.034096319527221" />
-      <entry key="S10" value="1.1948843637566815" />
-      <entry key="S30" value="1.9949889155825433" />
-      <entry key="S60" value="3.5855457796512717" />
-      <entry key="M2" value="7.204090261033686" />
-      <entry key="M5" value="14.099302931750598" />
-      <entry key="M10" value="19.084345254973858" />
-      <entry key="M15" value="21.85110250656875" />
-      <entry key="M30" value="26.28465923642834" />
-      <entry key="H1" value="29.8082809942811" />
-      <entry key="H2" value="32.136991660795715" />
-      <entry key="H4" value="33.49235347970568" />
-      <entry key="D1" value="34.73723698587088" />
-      <entry key="W1" value="34.96216825679106" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="7.158217821307974E-89" />
+      <entry key="S2" value="9.198165668653412E-23" />
+      <entry key="S5" value="1.532783650768531E-9" />
+      <entry key="S10" value="3.918704685748194E-5" />
+      <entry key="S30" value="0.03862492607777954" />
+      <entry key="S60" value="0.3333796173181051" />
+      <entry key="M2" value="1.6227537159233432" />
+      <entry key="M5" value="7.386623436395106" />
+      <entry key="M10" value="15.470093045157036" />
+      <entry key="M15" value="20.81156813734756" />
+      <entry key="M30" value="29.456666922909555" />
+      <entry key="H1" value="36.19501314261937" />
+      <entry key="H2" value="40.602186630950754" />
+      <entry key="H4" value="43.15886392333563" />
+      <entry key="D1" value="45.504893593408845" />
+      <entry key="W1" value="45.928715996565295" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.985492573045882E-63" />
-      <entry key="MS500" value="3.5926919366083007E-13" />
-      <entry key="S2" value="7.747557839193333E-4" />
-      <entry key="S5" value="0.06019920240439479" />
-      <entry key="S10" value="0.3241750083514417" />
-      <entry key="S30" value="3.190692919942443" />
-      <entry key="S60" value="10.375857934218622" />
-      <entry key="M2" value="25.156859522865624" />
-      <entry key="M5" value="55.21194451054446" />
-      <entry key="M10" value="92.84938389081891" />
-      <entry key="M15" value="133.62844357425195" />
-      <entry key="M30" value="242.35967033759087" />
-      <entry key="H1" value="364.95802122967285" />
-      <entry key="H2" value="460.961943388942" />
-      <entry key="H4" value="521.6649301305891" />
-      <entry key="D1" value="580.2908839866872" />
-      <entry key="W1" value="591.1631691693054" />
+      <entry key="MS100" value="0.4175439597141847" />
+      <entry key="MS500" value="0.8397389756941096" />
+      <entry key="S2" value="1.0095730983631208" />
+      <entry key="S5" value="1.2898888512180287" />
+      <entry key="S10" value="1.557639208214762" />
+      <entry key="S30" value="3.7807317520157353" />
+      <entry key="S60" value="10.843108381107717" />
+      <entry key="M2" value="25.510654476284333" />
+      <entry key="M5" value="60.06225566267092" />
+      <entry key="M10" value="105.19506860724954" />
+      <entry key="M15" value="147.93179581972797" />
+      <entry key="M30" value="262.07812937687146" />
+      <entry key="H1" value="399.96970938545854" />
+      <entry key="H2" value="514.2632102991878" />
+      <entry key="H4" value="588.9968843272337" />
+      <entry key="D1" value="662.8018835192174" />
+      <entry key="W1" value="676.6546712593318" />
     </decayedShown>
   </component>
   <component name="PropertiesComponent">{
@@ -133,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794910955061</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: update layout styles for Header and Footer components">
+      <option name="closed" value="true" />
+      <created>1794911625479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1794911625479</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +148,7 @@
     <MESSAGE value="chore: add initial project configuration files and structure" />
     <MESSAGE value="add initial project files and configuration for SvelteKit with TailwindCSS" />
     <MESSAGE value="feat: add Header and Footer components and update main page layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Header and Footer components and update main page layout" />
+    <MESSAGE value="feat: update layout styles for Header and Footer components" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update layout styles for Header and Footer components" />
   </component>
 </project>
