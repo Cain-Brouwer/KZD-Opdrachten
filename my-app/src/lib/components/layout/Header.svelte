@@ -8,7 +8,7 @@
 
 <div class="grid grid-cols-6 gap-4 pt-5 pr-3 pl-3 pb-5">
     <!-- svelte-ignore a11y_missing_content -->
-    <h1 id="logo">Florist</h1>
+    <h1 class="text-2xl font-bold" id="logo">Florist</h1>
     <ol class="flex gap-5">
         <li class="text-zinc-600 hover:text-black transition-colors duration-300">
             <a href="/">Home</a>
