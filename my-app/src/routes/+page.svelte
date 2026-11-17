@@ -8,10 +8,10 @@
     <div class="bg-white">
         <Header/>
     </div>
-    <div class="flex-1">
+    <div class="flex-1 bg-zinc-700">
 
     </div>
-    <div class="bg-gray-700">
+    <div class="bg-zinc-700">
         <Footer/>
     </div>
 </div>
