@@ -9,14 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: add Slider, Card, and Information sections to main page layout">
+    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: update Header component layout and add VCS configuration files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/lib/components/layout/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Footer.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/lib/components/layout/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Header.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="108" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,78 +43,116 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Cain-Brouwer"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Cain-Brouwer/KZD-Opdrachten.git",
+    "accountId": "844d06c1-e541-48e9-9a4c-4d6335f21312"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="4.409228514945108E-9" />
-      <entry key="MS500" value="0.030301001419138468" />
-      <entry key="S2" value="1.4117363200029365" />
-      <entry key="S5" value="5.0017448403802" />
-      <entry key="S10" value="8.93712936039979" />
-      <entry key="S30" value="14.346599309575465" />
-      <entry key="S60" value="18.032976182705042" />
-      <entry key="M2" value="23.716615532589152" />
-      <entry key="M5" value="41.586581123717686" />
-      <entry key="M10" value="75.92260561219953" />
-      <entry key="M15" value="112.16167667796363" />
-      <entry key="M30" value="218.02610305465112" />
-      <entry key="H1" value="359.5630995426387" />
-      <entry key="H2" value="485.11719856981324" />
-      <entry key="H4" value="570.4140566031701" />
-      <entry key="D1" value="656.7836547813542" />
-      <entry key="W1" value="673.212091999098" />
+      <entry key="MS100" value="1.000223103425212" />
+      <entry key="MS500" value="1.1946363948727516" />
+      <entry key="S2" value="2.292965410885064" />
+      <entry key="S5" value="4.675805798706459" />
+      <entry key="S10" value="7.172213956502331" />
+      <entry key="S30" value="12.371646128088557" />
+      <entry key="S60" value="16.589817058219694" />
+      <entry key="M2" value="21.447311079772074" />
+      <entry key="M5" value="36.410073555713" />
+      <entry key="M10" value="67.97346598996637" />
+      <entry key="M15" value="102.578936204595" />
+      <entry key="M30" value="207.45462162562353" />
+      <entry key="H1" value="357.60554446221965" />
+      <entry key="H2" value="498.44433127643276" />
+      <entry key="H4" value="597.4015312765495" />
+      <entry key="D1" value="699.9060436758749" />
+      <entry key="W1" value="719.643322921039" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000088370269" />
-      <entry key="S10" value="1.0001173684389042" />
-      <entry key="S30" value="1.096594068002297" />
-      <entry key="S60" value="1.7418683477858243" />
-      <entry key="M2" value="3.3632765310833457" />
-      <entry key="M5" value="7.308800117028304" />
-      <entry key="M10" value="14.107900820442692" />
-      <entry key="M15" value="19.899341001886338" />
-      <entry key="M30" value="30.850606412857523" />
-      <entry key="H1" value="40.301481474077136" />
-      <entry key="H2" value="46.789679977581166" />
-      <entry key="H4" value="50.64519718910065" />
-      <entry key="D1" value="54.23606206062903" />
-      <entry key="W1" value="54.889882541446404" />
+      <entry key="MS100" value="4.818203012196512E-160" />
+      <entry key="MS500" value="1.3695472460715984E-32" />
+      <entry key="S2" value="1.0817932187794847E-8" />
+      <entry key="S5" value="6.51115002122711E-4" />
+      <entry key="S10" value="0.02551695518910341" />
+      <entry key="S30" value="0.29440364524600116" />
+      <entry key="S60" value="0.5433295344758479" />
+      <entry key="M2" value="0.8076296288139676" />
+      <entry key="M5" value="2.4805082219121757" />
+      <entry key="M10" value="7.556676602089982" />
+      <entry key="M15" value="13.010181685115583" />
+      <entry key="M30" value="25.163189558303714" />
+      <entry key="H1" value="36.977926846572295" />
+      <entry key="H2" value="45.60459109223787" />
+      <entry key="H4" value="50.89475499678912" />
+      <entry key="D1" value="55.91957322681843" />
+      <entry key="W1" value="56.84402279686929" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0791097913527572" />
-      <entry key="MS500" value="0.6321179054009568" />
-      <entry key="S2" value="2.2895857429411" />
-      <entry key="S5" value="5.9479613813230525" />
-      <entry key="S10" value="9.908298095075134" />
-      <entry key="S30" value="15.422300748175532" />
-      <entry key="S60" value="19.73332759888853" />
-      <entry key="M2" value="27.023431061153506" />
-      <entry key="M5" value="48.82730950084068" />
-      <entry key="M10" value="89.9440857323875" />
-      <entry key="M15" value="131.97064492664" />
-      <entry key="M30" value="248.7976656145017" />
-      <entry key="H1" value="399.8092157009871" />
-      <entry key="H2" value="531.8735086412606" />
-      <entry key="H4" value="621.0408411914393" />
-      <entry key="D1" value="711.0163763314721" />
-      <entry key="W1" value="728.1014902084993" />
+      <entry key="MS100" value="0.7738858592709342" />
+      <entry key="MS500" value="1.1177139810564627" />
+      <entry key="S2" value="2.245728850075263" />
+      <entry key="S5" value="4.631324425712477" />
+      <entry key="S10" value="7.150163999403941" />
+      <entry key="S30" value="12.625654731493697" />
+      <entry key="S60" value="17.104098884318127" />
+      <entry key="M2" value="22.23586801533262" />
+      <entry key="M5" value="38.868458910823776" />
+      <entry key="M10" value="75.4870767909069" />
+      <entry key="M15" value="115.53329601974605" />
+      <entry key="M30" value="232.55578872973052" />
+      <entry key="H1" value="394.5341805061011" />
+      <entry key="H2" value="544.0172364359878" />
+      <entry key="H4" value="648.2782253123788" />
+      <entry key="D1" value="755.8222497852674" />
+      <entry key="W1" value="776.4868552394537" />
     </decayedShown>
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;p2__opdracht1&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.mcpserver.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/cainbrouwer/Projecten MBO Utrecht/Leerjaar 2/Periode 2/Frontend Development/opdracht1/my-app/node_modules/typescript/lib&quot;
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3MGw8qWTngJ0FXSZh9WwFYLb44e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "p2__opdracht1",
+    "javascript.preferred.runtime.type.id": "node",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.intellij.mcpserver.settings",
+    "ts.external.directory.path": "/home/cainbrouwer/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-WS-263.7307.202" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="chore: add initial project configuration files and structure">
       <option name="closed" value="true" />
@@ -159,8 +202,27 @@
       <option name="project" value="LOCAL" />
       <updated>1794912820243</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: add Slider, Card, and Information sections to main page layout" />
+      <created>1794990063913</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794990063913</updated>
+      <workItem from="1794990065220" duration="614000" />
+    </task>
+    <task id="LOCAL-00007" summary="feat: update Header component layout and add VCS configuration files">
+      <option name="closed" value="true" />
+      <created>1794990157566</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1794990157567</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore: restructure project files and add initial configuration" />
@@ -170,6 +232,7 @@
     <MESSAGE value="feat: update layout styles for Header and Footer components" />
     <MESSAGE value="feat: enhance hover styles for navigation items in Header component" />
     <MESSAGE value="feat: add Slider, Card, and Information sections to main page layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Slider, Card, and Information sections to main page layout" />
+    <MESSAGE value="feat: update Header component layout and add VCS configuration files" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update Header component layout and add VCS configuration files" />
   </component>
 </project>
