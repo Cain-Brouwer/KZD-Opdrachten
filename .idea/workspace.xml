@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AirChatToolWindow">
+  <component name="AirChatToolWindow" selected="5bsfqxu0b68qym4ey1ppqvxgy">
     <tab path="4/acp.dynamic.6163702e6f70656e636f64652d6d656e746f72/3547505f/5bsfqxu0b68qym4ey1ppqvxgy" version="23" tabKey="5bsfqxu0b68qym4ey1ppqvxgy" projectHash="3547505f" sessionWorkspaceId="$PROJECT_DIR$" projectDirectory="$PROJECT_DIR$" localSessionId="acp:c5947e54" threadIdentity="acp.dynamic.6163702e6f70656e636f64652d6d656e746f72:acp:c5947e54" launchTargetId="acp.v1.6163702e6f70656e636f64652d6d656e746f72" threadId="acp:c5947e54" threadTitle="hoe stijl ik de footer onderaan de pagina zelfs wanneer er ruimte erboven is" threadActivity="READY">
       <launchProfile name="OpenCode Mentor" agentId="acp.dynamic.6163702e6f70656e636f64652d6d656e746f72" launchMode="DEFAULT" launchTargetId="acp.v1.6163702e6f70656e636f64652d6d656e746f72" interactionSurfaceId="native" modelId="opencode/beam-free" modelDisplayName="opencode/Beam Free" reasoningEffort="AUTO" />
     </tab>
@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: enhance hover styles for navigation items in Header component">
-      <change afterPath="$PROJECT_DIR$/my-app/src/lib/components/content/SliderSection.svelte" afterDir="false" />
+    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: add Slider, Card, and Information sections to main page layout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/lib/components/layout/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/lib/components/layout/Header.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,8 @@
         <option value="Header" />
         <option value="Footer" />
         <option value="SliderSection" />
+        <option value="CardSection" />
+        <option value="InformationSection" />
       </list>
     </option>
   </component>
@@ -41,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.773782496771195" />
-      <entry key="MS500" value="1.9500004120298606" />
-      <entry key="S2" value="2.003402224136286" />
-      <entry key="S5" value="2.3569048511319255" />
-      <entry key="S10" value="3.1602445025936907" />
-      <entry key="S30" value="4.936224641683324" />
-      <entry key="S60" value="8.253500351608963" />
-      <entry key="M2" value="18.406252051348517" />
-      <entry key="M5" value="46.93797944079683" />
-      <entry key="M10" value="85.19900866707148" />
-      <entry key="M15" value="122.99609182596024" />
-      <entry key="M30" value="229.1715372459901" />
-      <entry key="H1" value="362.30502426436664" />
-      <entry key="H2" value="474.7706552123872" />
-      <entry key="H4" value="549.0122464969223" />
-      <entry key="D1" value="622.7631075711208" />
-      <entry key="W1" value="636.6479954515668" />
+      <entry key="MS100" value="4.409228514945108E-9" />
+      <entry key="MS500" value="0.030301001419138468" />
+      <entry key="S2" value="1.4117363200029365" />
+      <entry key="S5" value="5.0017448403802" />
+      <entry key="S10" value="8.93712936039979" />
+      <entry key="S30" value="14.346599309575465" />
+      <entry key="S60" value="18.032976182705042" />
+      <entry key="M2" value="23.716615532589152" />
+      <entry key="M5" value="41.586581123717686" />
+      <entry key="M10" value="75.92260561219953" />
+      <entry key="M15" value="112.16167667796363" />
+      <entry key="M30" value="218.02610305465112" />
+      <entry key="H1" value="359.5630995426387" />
+      <entry key="H2" value="485.11719856981324" />
+      <entry key="H4" value="570.4140566031701" />
+      <entry key="D1" value="656.7836547813542" />
+      <entry key="W1" value="673.212091999098" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.132247345273062E-154" />
-      <entry key="S2" value="4.5086505644699206E-39" />
-      <entry key="S5" value="4.587953413489457E-16" />
-      <entry key="S10" value="2.1439349602399188E-8" />
-      <entry key="S30" value="0.003159056193662828" />
-      <entry key="S60" value="0.09534191894792958" />
-      <entry key="M2" value="0.8678107682674692" />
-      <entry key="M5" value="5.750623418797568" />
-      <entry key="M10" value="13.649835271791027" />
-      <entry key="M15" value="19.145253811764853" />
-      <entry key="M30" value="28.252817591546787" />
-      <entry key="H1" value="35.447680237788994" />
-      <entry key="H2" value="40.180835546918495" />
-      <entry key="H4" value="42.93433833711873" />
-      <entry key="D1" value="45.46535273851814" />
-      <entry key="W1" value="45.92301256802507" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000088370269" />
+      <entry key="S10" value="1.0001173684389042" />
+      <entry key="S30" value="1.096594068002297" />
+      <entry key="S60" value="1.7418683477858243" />
+      <entry key="M2" value="3.3632765310833457" />
+      <entry key="M5" value="7.308800117028304" />
+      <entry key="M10" value="14.107900820442692" />
+      <entry key="M15" value="19.899341001886338" />
+      <entry key="M30" value="30.850606412857523" />
+      <entry key="H1" value="40.301481474077136" />
+      <entry key="H2" value="46.789679977581166" />
+      <entry key="H4" value="50.64519718910065" />
+      <entry key="D1" value="54.23606206062903" />
+      <entry key="W1" value="54.889882541446404" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9954052725765057" />
-      <entry key="MS500" value="1.661601184397639" />
-      <entry key="S2" value="1.9197240131047044" />
-      <entry key="S5" value="2.297949831286987" />
-      <entry key="S10" value="3.089744280129204" />
-      <entry key="S30" value="4.884009115772339" />
-      <entry key="S60" value="8.306977234189887" />
-      <entry key="M2" value="19.2226367043426" />
-      <entry key="M5" value="52.585787689237605" />
-      <entry key="M10" value="98.72959721092406" />
-      <entry key="M15" value="142.0285521174349" />
-      <entry key="M30" value="257.33786599131565" />
-      <entry key="H1" value="397.69658267065324" />
-      <entry key="H2" value="514.9190166025492" />
-      <entry key="H4" value="591.9290392986644" />
-      <entry key="D1" value="668.2253334029975" />
-      <entry key="W1" value="682.5705560553569" />
+      <entry key="MS100" value="0.0791097913527572" />
+      <entry key="MS500" value="0.6321179054009568" />
+      <entry key="S2" value="2.2895857429411" />
+      <entry key="S5" value="5.9479613813230525" />
+      <entry key="S10" value="9.908298095075134" />
+      <entry key="S30" value="15.422300748175532" />
+      <entry key="S60" value="19.73332759888853" />
+      <entry key="M2" value="27.023431061153506" />
+      <entry key="M5" value="48.82730950084068" />
+      <entry key="M10" value="89.9440857323875" />
+      <entry key="M15" value="131.97064492664" />
+      <entry key="M30" value="248.7976656145017" />
+      <entry key="H1" value="399.8092157009871" />
+      <entry key="H2" value="531.8735086412606" />
+      <entry key="H4" value="621.0408411914393" />
+      <entry key="D1" value="711.0163763314721" />
+      <entry key="W1" value="728.1014902084993" />
     </decayedShown>
   </component>
   <component name="PropertiesComponent">{
@@ -148,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794912435512</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: add Slider, Card, and Information sections to main page layout">
+      <option name="closed" value="true" />
+      <created>1794912820243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1794912820243</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,6 +169,7 @@
     <MESSAGE value="feat: add Header and Footer components and update main page layout" />
     <MESSAGE value="feat: update layout styles for Header and Footer components" />
     <MESSAGE value="feat: enhance hover styles for navigation items in Header component" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: enhance hover styles for navigation items in Header component" />
+    <MESSAGE value="feat: add Slider, Card, and Information sections to main page layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Slider, Card, and Information sections to main page layout" />
   </component>
 </project>
