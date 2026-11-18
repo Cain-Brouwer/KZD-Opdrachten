@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AirChatToolWindow">
-    <tab path="4/acp.dynamic.6163702e6f70656e636f64652d6d656e746f72/3547505f/3l3at0bbv6aafjw5aqtrolzvg" version="23" tabKey="3l3at0bbv6aafjw5aqtrolzvg" projectHash="3547505f" sessionWorkspaceId="$PROJECT_DIR$" projectDirectory="$PROJECT_DIR$" localSessionId="acp:e61bba63" threadIdentity="acp.dynamic.6163702e6f70656e636f64652d6d656e746f72:acp:e61bba63" launchTargetId="acp.v1.6163702e6f70656e636f64652d6d656e746f72" threadId="acp:e61bba63" threadTitle="Center inner divs in SliderSection.svelte" threadActivity="READY">
+  <component name="AirChatToolWindow" selected="ev2dhdyy4mo4du0dotit5q5to">
+    <tab path="4/acp.dynamic.6163702e6f70656e636f64652d6d656e746f72/3547505f/ev2dhdyy4mo4du0dotit5q5to" version="23" tabKey="ev2dhdyy4mo4du0dotit5q5to" projectHash="3547505f" sessionWorkspaceId="$PROJECT_DIR$" projectDirectory="$PROJECT_DIR$" localSessionId="acp:b3ee50fd" threadIdentity="acp.dynamic.6163702e6f70656e636f64652d6d656e746f72:acp:b3ee50fd" launchTargetId="acp.v1.6163702e6f70656e636f64652d6d656e746f72" threadId="acp:b3ee50fd" threadTitle="hoe zorg ik ervoor dat ik een cirkel 70&amp; opacity bg achter de buttons krijg? @fi" threadActivity="PROCESSING">
       <launchProfile name="OpenCode Mentor" agentId="acp.dynamic.6163702e6f70656e636f64652d6d656e746f72" launchMode="DEFAULT" launchTargetId="acp.v1.6163702e6f70656e636f64652d6d656e746f72" interactionSurfaceId="native" modelId="opencode/beam-free" modelDisplayName="opencode/Beam Free" reasoningEffort="AUTO" />
     </tab>
   </component>
@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: update social media links in Footer and adjust Header layout">
+    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: add content layout to SliderSection component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/lib/components/content/SliderSection.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/lib/components/content/SliderSection.svelte" afterDir="false" />
     </list>
@@ -60,61 +60,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0026866051135541" />
-      <entry key="MS500" value="1.3060887298927288" />
-      <entry key="S2" value="1.7924806219077292" />
-      <entry key="S5" value="2.3182209882101965" />
-      <entry key="S10" value="3.1204305350562707" />
-      <entry key="S30" value="5.257755542123401" />
-      <entry key="S60" value="7.813240975216928" />
-      <entry key="M2" value="13.319978423084468" />
-      <entry key="M5" value="25.047834776367868" />
-      <entry key="M10" value="33.29478815658241" />
-      <entry key="M15" value="36.95761722260124" />
-      <entry key="M30" value="44.79939962453725" />
-      <entry key="H1" value="92.12161185088128" />
-      <entry key="H2" value="235.26028230718777" />
-      <entry key="H4" value="429.71581961136263" />
-      <entry key="D1" value="742.2225522418813" />
-      <entry key="W1" value="817.6419327240758" />
+      <entry key="MS100" value="1.5885557916374798E-4" />
+      <entry key="MS500" value="0.19502306030543495" />
+      <entry key="S2" value="1.8648783758611582" />
+      <entry key="S5" value="4.607575096808725" />
+      <entry key="S10" value="7.121021414298246" />
+      <entry key="S30" value="11.760728779565618" />
+      <entry key="S60" value="15.876841346502516" />
+      <entry key="M2" value="23.833482307128214" />
+      <entry key="M5" value="48.942214562663615" />
+      <entry key="M10" value="85.31084704389625" />
+      <entry key="M15" value="112.06578003533846" />
+      <entry key="M30" value="158.84286729472717" />
+      <entry key="H1" value="223.58600381099674" />
+      <entry key="H2" value="367.3958089914493" />
+      <entry key="H4" value="571.2776713724471" />
+      <entry key="D1" value="921.5017612070405" />
+      <entry key="W1" value="1009.3284147482777" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0271575778241546E-269" />
-      <entry key="MS500" value="1.5934095468614207E-54" />
-      <entry key="S2" value="3.552890753397857E-14" />
-      <entry key="S5" value="4.17092846619903E-6" />
-      <entry key="S10" value="0.002042299909966505" />
-      <entry key="S30" value="0.129984153018207" />
-      <entry key="S60" value="0.43149504817218093" />
-      <entry key="M2" value="0.9800372833267152" />
-      <entry key="M5" value="1.8430238166612896" />
-      <entry key="M10" value="2.3361643472371867" />
-      <entry key="M15" value="2.5381933367969682" />
-      <entry key="M30" value="3.1041468357769784" />
-      <entry key="H1" value="7.24599050597934" />
-      <entry key="H2" value="18.74117230899003" />
-      <entry key="H4" value="33.18584358238313" />
-      <entry key="D1" value="55.00781142940962" />
-      <entry key="W1" value="60.10313222603443" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000945717" />
+      <entry key="S10" value="1.0000097247999282" />
+      <entry key="S30" value="1.021348903979726" />
+      <entry key="S60" value="1.1481285241796428" />
+      <entry key="M2" value="1.4396508890328064" />
+      <entry key="M5" value="2.7852762735122005" />
+      <entry key="M10" value="6.102859922346255" />
+      <entry key="M15" value="8.938517853076913" />
+      <entry key="M30" value="14.065651646329092" />
+      <entry key="H1" value="20.59373375163978" />
+      <entry key="H2" value="32.893796479933556" />
+      <entry key="H4" value="48.63848791540776" />
+      <entry key="D1" value="73.82678953166183" />
+      <entry key="W1" value="79.92001665047535" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.16154420547168621" />
-      <entry key="MS500" value="0.7344183249270833" />
-      <entry key="S2" value="1.381525551733389" />
-      <entry key="S5" value="2.018981573229439" />
-      <entry key="S10" value="2.8892069566064817" />
-      <entry key="S30" value="5.2412012936892065" />
-      <entry key="S60" value="8.122950126423225" />
-      <entry key="M2" value="14.186177059684532" />
-      <entry key="M5" value="26.80484533676644" />
-      <entry key="M10" value="35.57491233132886" />
-      <entry key="M15" value="39.45474907310635" />
-      <entry key="M30" value="47.87997881567761" />
-      <entry key="H1" value="99.34950621455894" />
-      <entry key="H2" value="253.98382780649843" />
-      <entry key="H4" value="462.88738679627465" />
-      <entry key="D1" value="797.2265912334153" />
-      <entry key="W1" value="877.7444792411919" />
+      <entry key="MS100" value="0.03781694042047459" />
+      <entry key="MS500" value="0.7079098313536022" />
+      <entry key="S2" value="2.698015727962018" />
+      <entry key="S5" value="5.528312318776938" />
+      <entry key="S10" value="8.07644344706995" />
+      <entry key="S30" value="12.755973324510652" />
+      <entry key="S60" value="16.98421074163942" />
+      <entry key="M2" value="25.21983838132277" />
+      <entry key="M5" value="51.66909103438628" />
+      <entry key="M10" value="91.34913395296127" />
+      <entry key="M15" value="120.94037563997801" />
+      <entry key="M30" value="172.85659098688075" />
+      <entry key="H1" value="244.1419307591963" />
+      <entry key="H2" value="400.26082525654164" />
+      <entry key="H4" value="619.89562450135" />
+      <entry key="D1" value="995.3234942462931" />
+      <entry key="W1" value="1089.247652480375" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -208,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1794990063913</updated>
       <workItem from="1794990065220" duration="1419000" />
-      <workItem from="1795001793179" duration="837000" />
+      <workItem from="1795001793179" duration="2520000" />
     </task>
     <task id="LOCAL-00007" summary="feat: update Header component layout and add VCS configuration files">
       <option name="closed" value="true" />
@@ -226,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794991046187</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add content layout to SliderSection component">
+      <option name="closed" value="true" />
+      <created>1795002713106</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1795002713106</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +250,7 @@
     <MESSAGE value="feat: add Slider, Card, and Information sections to main page layout" />
     <MESSAGE value="feat: update Header component layout and add VCS configuration files" />
     <MESSAGE value="feat: update social media links in Footer and adjust Header layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update social media links in Footer and adjust Header layout" />
+    <MESSAGE value="feat: add content layout to SliderSection component" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add content layout to SliderSection component" />
   </component>
 </project>
