@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: enhance SliderSection with multiple images and improved navigation buttons">
+    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: enhance SliderSection to support multiple images with dynamic navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/lib/components/content/SliderSection.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/lib/components/content/SliderSection.svelte" afterDir="false" />
     </list>
@@ -61,59 +61,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000769907167" />
-      <entry key="S5" value="1.0056886819230473" />
-      <entry key="S10" value="1.252119722994432" />
-      <entry key="S30" value="4.507517682803735" />
-      <entry key="S60" value="8.890294535780939" />
-      <entry key="M2" value="16.897081366873397" />
-      <entry key="M5" value="39.724422342308344" />
-      <entry key="M10" value="74.05556811368433" />
-      <entry key="M15" value="106.67162216617307" />
-      <entry key="M30" value="181.63175073716454" />
-      <entry key="H1" value="277.3730758572254" />
-      <entry key="H2" value="438.4711281919439" />
-      <entry key="H4" value="659.423428034711" />
-      <entry key="D1" value="1050.5514418699915" />
-      <entry key="W1" value="1150.9880411886747" />
+      <entry key="S2" value="1.000000000084838" />
+      <entry key="S5" value="1.0000936784578502" />
+      <entry key="S10" value="1.0101953555928707" />
+      <entry key="S30" value="1.5983816522084915" />
+      <entry key="S60" value="4.023760465443917" />
+      <entry key="M2" value="8.700528478717425" />
+      <entry key="M5" value="15.826985498563797" />
+      <entry key="M10" value="29.02916441070828" />
+      <entry key="M15" value="49.109282247018065" />
+      <entry key="M30" value="117.11497076696531" />
+      <entry key="H1" value="224.78872668135696" />
+      <entry key="H2" value="398.6098931886996" />
+      <entry key="H4" value="635.0717862635042" />
+      <entry key="D1" value="1065.6864963766297" />
+      <entry key="W1" value="1178.6492110443708" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.343648346145985E-212" />
-      <entry key="MS500" value="4.7203966085069144E-43" />
-      <entry key="S2" value="2.6211665822423798E-11" />
-      <entry key="S5" value="5.853260447415014E-5" />
-      <entry key="S10" value="0.007650660394756817" />
-      <entry key="S30" value="0.19712963482578413" />
-      <entry key="S60" value="0.4590361598621423" />
-      <entry key="M2" value="0.876347508372821" />
-      <entry key="M5" value="1.9625625340227442" />
-      <entry key="M10" value="3.665297638628379" />
-      <entry key="M15" value="5.6891280409234275" />
-      <entry key="M30" value="11.321510746919499" />
-      <entry key="H1" value="19.47938408025017" />
-      <entry key="H2" value="32.97011425382519" />
-      <entry key="H4" value="50.16931557997688" />
-      <entry key="D1" value="78.67291788182425" />
-      <entry key="W1" value="85.74086439674255" />
+      <entry key="MS100" value="4.091359841930845E-131" />
+      <entry key="MS500" value="8.36322027506224E-27" />
+      <entry key="S2" value="3.024080751719159E-7" />
+      <entry key="S5" value="0.0024673874621174985" />
+      <entry key="S10" value="0.04967282766788906" />
+      <entry key="S30" value="0.3704669289514058" />
+      <entry key="S60" value="0.6598627740827948" />
+      <entry key="M2" value="1.0101250205395944" />
+      <entry key="M5" value="1.4952746371505674" />
+      <entry key="M10" value="2.177100676727622" />
+      <entry key="M15" value="3.256339179111705" />
+      <entry key="M30" value="7.638416403515286" />
+      <entry key="H1" value="15.8237204099393" />
+      <entry key="H2" value="29.80229905415754" />
+      <entry key="H4" value="48.07921146440207" />
+      <entry key="D1" value="79.56730988747236" />
+      <entry key="W1" value="87.56771969916721" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.788721300639344E-5" />
-      <entry key="MS500" value="0.13678671265759243" />
-      <entry key="S2" value="0.6081504504782015" />
-      <entry key="S5" value="0.8253328358798571" />
-      <entry key="S10" value="1.1643343582574033" />
-      <entry key="S30" value="4.664232649300778" />
-      <entry key="S60" value="9.320908839642877" />
-      <entry key="M2" value="17.744144324552483" />
-      <entry key="M5" value="41.64416811874554" />
-      <entry key="M10" value="77.66844826746114" />
-      <entry key="M15" value="112.30416952851336" />
-      <entry key="M30" value="192.89805330704334" />
-      <entry key="H1" value="296.80775390165945" />
-      <entry key="H2" value="471.4070109135557" />
-      <entry key="H4" value="709.5685909997728" />
-      <entry key="D1" value="1129.2184361856139" />
-      <entry key="W1" value="1236.7279925192167" />
+      <entry key="MS100" value="9.724125879816147E-6" />
+      <entry key="MS500" value="0.09944206046936481" />
+      <entry key="S2" value="0.5615555641090989" />
+      <entry key="S5" value="0.7963226842459858" />
+      <entry key="S10" value="0.949598890011995" />
+      <entry key="S30" value="1.9276495669428924" />
+      <entry key="S60" value="4.661126822797995" />
+      <entry key="M2" value="9.698200361498843" />
+      <entry key="M5" value="17.315937601566574" />
+      <entry key="M10" value="31.19643909412767" />
+      <entry key="M15" value="52.34900696879648" />
+      <entry key="M30" value="124.72430916121122" />
+      <entry key="H1" value="240.5800577128506" />
+      <entry key="H2" value="428.3830264019502" />
+      <entry key="H4" value="683.1286712864058" />
+      <entry key="D1" value="1145.2479429718085" />
+      <entry key="W1" value="1266.216016258605" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -250,7 +250,7 @@
       <workItem from="1795001793179" duration="4954000" />
       <workItem from="1795507337236" duration="153000" />
       <workItem from="1795507508480" duration="1599000" />
-      <workItem from="1795599146403" duration="308000" />
+      <workItem from="1795599146403" duration="1621000" />
     </task>
     <task id="LOCAL-00007" summary="feat: update Header component layout and add VCS configuration files">
       <option name="closed" value="true" />
@@ -292,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795507744774</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: enhance SliderSection to support multiple images with dynamic navigation">
+      <option name="closed" value="true" />
+      <created>1795599622941</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1795599622941</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +319,7 @@
     <MESSAGE value="feat: add content layout to SliderSection component" />
     <MESSAGE value="feat: add slider image and navigation buttons" />
     <MESSAGE value="feat: enhance SliderSection with multiple images and improved navigation buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: enhance SliderSection with multiple images and improved navigation buttons" />
+    <MESSAGE value="feat: enhance SliderSection to support multiple images with dynamic navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: enhance SliderSection to support multiple images with dynamic navigation" />
   </component>
 </project>
