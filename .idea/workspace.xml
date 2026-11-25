@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AirChatToolWindow">
-    <tab path="4/acp.dynamic.6163702e6f70656e636f64652d6d656e746f72/3547505f/bu8ia0asl9q9jru6652eelkvp" version="23" tabKey="bu8ia0asl9q9jru6652eelkvp" projectHash="3547505f" sessionWorkspaceId="$PROJECT_DIR$" projectDirectory="$PROJECT_DIR$" localSessionId="acp:1fd57e56" threadIdentity="acp.dynamic.6163702e6f70656e636f64652d6d656e746f72:acp:1fd57e56" launchTargetId="acp.v1.6163702e6f70656e636f64652d6d656e746f72" threadId="acp:1fd57e56" threadTitle="hoe maak ik een slider van de 3 afbeeldingen" threadActivity="READY">
-      <launchProfile name="OpenCode Mentor" agentId="acp.dynamic.6163702e6f70656e636f64652d6d656e746f72" launchMode="DEFAULT" launchTargetId="acp.v1.6163702e6f70656e636f64652d6d656e746f72" interactionSurfaceId="native" modelId="opencode/beam-free" modelDisplayName="opencode/Beam Free" reasoningEffort="AUTO" />
+  <component name="AirChatToolWindow" selected="0mcfbhun1dr8fcyuf0j37bfhz">
+    <tab path="4/acp.dynamic.6163702e6f70656e636f6465/3547505f/0mcfbhun1dr8fcyuf0j37bfhz" version="24" tabKey="0mcfbhun1dr8fcyuf0j37bfhz" projectHash="3547505f" sessionWorkspaceId="$PROJECT_DIR$" projectDirectory="$PROJECT_DIR$" sessionWorkingDirectory="$PROJECT_DIR$" localSessionId="local:e078914b-ef2c-434f-ad0e-64c4926a4828" threadIdentity="acp.dynamic.6163702e6f70656e636f6465:ses_e114f5d47ffe16KLQYxJmM7Elf" launchTargetId="acp.v1.6163702e6f70656e636f6465" threadId="ses_e114f5d47ffe16KLQYxJmM7Elf" threadTitle="Slider van 3 afbeeldingen" threadActivity="READY">
+      <launchProfile name="" agentId="acp.dynamic.6163702e6f70656e636f6465" launchMode="DEFAULT" launchTargetId="acp.v1.6163702e6f70656e636f6465" interactionSurfaceId="native" reasoningEffort="AUTO" />
     </tab>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: add slider image and navigation buttons">
+    <list default="true" id="887ea2a2-9041-4c98-bd4e-2321e73b2e3d" name="Changes" comment="feat: enhance SliderSection with multiple images and improved navigation buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/lib/components/content/SliderSection.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/lib/components/content/SliderSection.svelte" afterDir="false" />
     </list>
@@ -61,59 +61,59 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0002438858905978" />
-      <entry key="S5" value="1.0815384041700151" />
-      <entry key="S10" value="1.5795399180264227" />
-      <entry key="S30" value="4.576752874070429" />
-      <entry key="S60" value="10.640998894589247" />
-      <entry key="M2" value="20.941091258642025" />
-      <entry key="M5" value="40.86361479765204" />
-      <entry key="M10" value="72.54268915979605" />
-      <entry key="M15" value="103.92336225962258" />
-      <entry key="M30" value="174.51103576179673" />
-      <entry key="H1" value="264.5288958148983" />
-      <entry key="H2" value="421.8744283193072" />
-      <entry key="H4" value="639.2903833407485" />
-      <entry key="D1" value="1022.4415822783914" />
-      <entry key="W1" value="1120.4404216463643" />
+      <entry key="S2" value="1.0000000769907167" />
+      <entry key="S5" value="1.0056886819230473" />
+      <entry key="S10" value="1.252119722994432" />
+      <entry key="S30" value="4.507517682803735" />
+      <entry key="S60" value="8.890294535780939" />
+      <entry key="M2" value="16.897081366873397" />
+      <entry key="M5" value="39.724422342308344" />
+      <entry key="M10" value="74.05556811368433" />
+      <entry key="M15" value="106.67162216617307" />
+      <entry key="M30" value="181.63175073716454" />
+      <entry key="H1" value="277.3730758572254" />
+      <entry key="H2" value="438.4711281919439" />
+      <entry key="H4" value="659.423428034711" />
+      <entry key="D1" value="1050.5514418699915" />
+      <entry key="W1" value="1150.9880411886747" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.1255152617672396E-270" />
-      <entry key="MS500" value="1.0240576416994756E-54" />
-      <entry key="S2" value="3.51713576231547E-14" />
-      <entry key="S5" value="5.6146884334460675E-6" />
-      <entry key="S10" value="0.0032851081994005986" />
-      <entry key="S30" value="0.2579420542520903" />
-      <entry key="S60" value="0.8377182396516438" />
-      <entry key="M2" value="1.5628562424295713" />
-      <entry key="M5" value="2.4825636837649108" />
-      <entry key="M10" value="4.098040003317815" />
-      <entry key="M15" value="6.19651907431021" />
-      <entry key="M30" value="11.82950119498892" />
-      <entry key="H1" value="19.77214329451935" />
-      <entry key="H2" value="33.064427426837746" />
-      <entry key="H4" value="50.001910764909624" />
-      <entry key="D1" value="77.8902694363046" />
-      <entry key="W1" value="84.77469220489111" />
+      <entry key="MS100" value="2.343648346145985E-212" />
+      <entry key="MS500" value="4.7203966085069144E-43" />
+      <entry key="S2" value="2.6211665822423798E-11" />
+      <entry key="S5" value="5.853260447415014E-5" />
+      <entry key="S10" value="0.007650660394756817" />
+      <entry key="S30" value="0.19712963482578413" />
+      <entry key="S60" value="0.4590361598621423" />
+      <entry key="M2" value="0.876347508372821" />
+      <entry key="M5" value="1.9625625340227442" />
+      <entry key="M10" value="3.665297638628379" />
+      <entry key="M15" value="5.6891280409234275" />
+      <entry key="M30" value="11.321510746919499" />
+      <entry key="H1" value="19.47938408025017" />
+      <entry key="H2" value="32.97011425382519" />
+      <entry key="H4" value="50.16931557997688" />
+      <entry key="D1" value="78.67291788182425" />
+      <entry key="W1" value="85.74086439674255" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8179020585577811" />
-      <entry key="MS500" value="0.9605948639534766" />
-      <entry key="S2" value="0.9902408539056794" />
-      <entry key="S5" value="1.0771409219360162" />
-      <entry key="S10" value="1.5786123751902643" />
-      <entry key="S30" value="4.797302715053954" />
-      <entry key="S60" value="11.403010939411761" />
-      <entry key="M2" value="22.416286356077574" />
-      <entry key="M5" value="43.26998461271426" />
-      <entry key="M10" value="76.56948342258612" />
-      <entry key="M15" value="110.05018622089094" />
-      <entry key="M30" value="186.27934157006445" />
-      <entry key="H1" value="284.2541507668589" />
-      <entry key="H2" value="454.9039038232609" />
-      <entry key="H4" value="689.2679533504011" />
-      <entry key="D1" value="1100.3259477606794" />
-      <entry key="W1" value="1205.214205575738" />
+      <entry key="MS100" value="4.788721300639344E-5" />
+      <entry key="MS500" value="0.13678671265759243" />
+      <entry key="S2" value="0.6081504504782015" />
+      <entry key="S5" value="0.8253328358798571" />
+      <entry key="S10" value="1.1643343582574033" />
+      <entry key="S30" value="4.664232649300778" />
+      <entry key="S60" value="9.320908839642877" />
+      <entry key="M2" value="17.744144324552483" />
+      <entry key="M5" value="41.64416811874554" />
+      <entry key="M10" value="77.66844826746114" />
+      <entry key="M15" value="112.30416952851336" />
+      <entry key="M30" value="192.89805330704334" />
+      <entry key="H1" value="296.80775390165945" />
+      <entry key="H2" value="471.4070109135557" />
+      <entry key="H4" value="709.5685909997728" />
+      <entry key="D1" value="1129.2184361856139" />
+      <entry key="W1" value="1236.7279925192167" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -144,10 +144,50 @@
     "ts.external.directory.path": "/home/cainbrouwer/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="opdracht1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="opdracht1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-WS-263.7307.202" />
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-WS-263.7307.348" />
       </set>
     </attachedChunks>
   </component>
@@ -209,6 +249,8 @@
       <workItem from="1794990065220" duration="1419000" />
       <workItem from="1795001793179" duration="4954000" />
       <workItem from="1795507337236" duration="153000" />
+      <workItem from="1795507508480" duration="1599000" />
+      <workItem from="1795599146403" duration="308000" />
     </task>
     <task id="LOCAL-00007" summary="feat: update Header component layout and add VCS configuration files">
       <option name="closed" value="true" />
@@ -242,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795004598084</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: enhance SliderSection with multiple images and improved navigation buttons">
+      <option name="closed" value="true" />
+      <created>1795507744773</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1795507744774</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +310,7 @@
     <MESSAGE value="feat: update social media links in Footer and adjust Header layout" />
     <MESSAGE value="feat: add content layout to SliderSection component" />
     <MESSAGE value="feat: add slider image and navigation buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add slider image and navigation buttons" />
+    <MESSAGE value="feat: enhance SliderSection with multiple images and improved navigation buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: enhance SliderSection with multiple images and improved navigation buttons" />
   </component>
 </project>

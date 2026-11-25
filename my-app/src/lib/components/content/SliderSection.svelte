@@ -1,4 +1,10 @@
 <script>
+    let currentImageIndex = 0;
+    let images = [
+        "/Bloemen_verzameling.jpg",
+        "/Seizoensbloemen.webp",
+        "/Tulpen.jpg"
+    ];
 </script>
 
 <div class="grid grid-cols-2 pt-40 pb-40 place-items-center">
@@ -9,9 +15,7 @@
         <button class="bg-blue-500 rounded p-2 text-white"><a href="/flowers">Shop Flowers</a></button>
     </div>
     <div class="col-start-2 relative">
-        <img class="w-200" src="/Bloemen_verzameling.jpg" alt="Boeketverzameling">
-        <img class="w-200" src="/Seizoensbloemen.webp" alt="Seizoensbloemen">
-        <img class="w-200" src="/Tulpen.jpg" alt="Tulpenbloemen">
+        <img class="w-200" src={images[currentImageIndex]} alt="Bloemen">
         <button class="absolute right-0 top-1/2 transform
                        -translate-y-1/2 text-white/80 text-5xl mr-10"
         >ᐳ</button>
